@@ -78,6 +78,8 @@
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="packages.config" />
+    <None Include="Readme.txt" />
+    <None Include="AnotherTestFile.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\layout\" />
