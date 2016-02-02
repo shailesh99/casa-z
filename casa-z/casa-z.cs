@@ -2,6 +2,8 @@
 
 using Xamarin.Forms;
 
+using System.Windows.Input;
+
 namespace casaz
 {
 	public class App : Application
@@ -9,7 +11,8 @@ namespace casaz
 		public App ()
 		{
 			// The root page of your application
-			MainPage = new DemoPage();
+			//MainPage = new DemoPage();
+			MainPage = new BetterView();
 		}
 
 		protected override void OnStart ()
