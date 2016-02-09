@@ -12,7 +12,8 @@ namespace casaz
 		{
 			// The root page of your application
 			//MainPage = new DemoPage();
-			MainPage = new BetterView();
+			//MainPage = new BetterView();
+			MainPage = new ScanView ();
 		}
 
 		protected override void OnStart ()

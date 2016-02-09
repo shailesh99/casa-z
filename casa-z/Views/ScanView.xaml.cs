@@ -10,6 +10,7 @@ namespace casaz
 		public ScanView ()
 		{
 			InitializeComponent ();
+			this.BindingContext = new ScanViewModel ();
 		}
 	}
 }
